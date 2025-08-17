@@ -1,3 +1,4 @@
 {
-  "mongoDB_URI": "mongodb+srv://root:admin@mern-auth.esowaxc.mongodb.net/?retryWrites=true&w=majority&appName=MERN-auth"
+  "mongoDB_URI": "mongodb+srv://root:admin@mern-auth.esowaxc.mongodb.net/?retryWrites=true&w=majority&appName=MERN-auth",
+  "jwtSecret": "mysecretkey"
 }
