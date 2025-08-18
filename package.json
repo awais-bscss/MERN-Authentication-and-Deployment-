@@ -5,10 +5,12 @@
   "main": "index.js",
   "scripts": {
     "server": "nodemon server.js",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
     "test": "cross-env NODE_ENV=development jest"
   },
   "keywords": [],
-  "author": "M_Awaiss",
+  "author": "M_Awais",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
