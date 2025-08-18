@@ -5,6 +5,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 connectDB();
 
+app.use("/api/auth", require("./Routes/api/auth"));
 app.use("/api/users", require("./Routes/api/users"));
 
 const PORT = process.env.PORT || 3000;
