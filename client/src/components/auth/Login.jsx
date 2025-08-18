@@ -47,7 +47,7 @@ const Login = () => {
         </div>
         <input type="submit" value="Log in" />
         <p>
-          Not Registered Yet? <Link to="/regiter">Register</Link>
+          Not Registered Yet? <Link to="/register">Register</Link>
         </p>
       </form>
     </div>

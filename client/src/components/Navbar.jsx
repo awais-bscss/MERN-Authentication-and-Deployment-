@@ -4,9 +4,10 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav>
-      <h1>
+      <h1 className="text-6xl font-bold">
         <Link to="/">MERN Auth</Link>
       </h1>
+
       <ul>
         <li>
           <Link to="/register">Register</Link>
